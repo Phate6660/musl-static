@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>musl-static</name>
+    <description lang="en">An overlay for modifying or adding packages to have static support..</description>
+    <homepage>https://github.com/Phate6660/musl-static</homepage>
+    <owner type="person">
+      <name>Phate</name>
+      <email>ValleyKnight@protonmail.com</email>
+    </owner>
+    <source type="https">https://github.com/Phate6660/overlay.git</source>
+  </repo>
+</repositories>
