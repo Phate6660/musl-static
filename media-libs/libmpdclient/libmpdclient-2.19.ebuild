@@ -9,11 +9,12 @@ SRC_URI="https://www.musicpd.org/download/${PN}/${PV%.*}/${P}.tar.xz"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64"
+IUSE="dynamic"
 
 src_configure() {
 	# Static library, no documentation, no testing.
 	local emesonargs=(
-	    -Ddefault_library=static
+	    -Ddefault_library=$(usex dynamic both static)
 		-Ddocumentation=false
         -Dtest=false
 	)

@@ -12,4 +12,4 @@ After that, all you need to do is sync. :)
 
 # Software
 Currently, here is what is included:
-- libmpdclient -- static lib only, no testing, no documentation
+- libmpdclient -- static lib by default (use `dynamic` to build both types of libs), no testing, no documentation
